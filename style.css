@@ -1,0 +1,90 @@
+body{
+    background-color:black;
+   font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+
+.login form input{
+            
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+     font-family: 'Satisfy', cursive;
+}
+
+.login{
+    margin-top: 70px;
+    text-align: center;
+    background-color:peachpuff;
+    box-shadow: 3px 5px 3px 4px grey;
+    background-size: 50%;
+      border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    
+}
+
+
+.login h1 {
+    color: black;
+ font-family: 'Satisfy', cursive;
+    font-size: 40px;
+}
+
+.login button{
+    background-color: aqua;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Satisfy', cursive;
+}
+
+p{
+    color: black;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
+
+.fab{
+    width: 3em;
+    height: 1em;
+}
+
+.country{
+     border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Satisfy', cursive;
+    margin-left: 25px;
+    width: 100px;
+}
+
+
+.login{
+    animation-name: none;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+  
+    
+}
+
+@keyframes login{
+    
+    0%{
+        opacity: 0;
+        background-color:peachpuff;
+    }
+    
+    100%{
+        opacity: 3;
+        background-color: purple;
+    }
+    
+    
+    
+}
